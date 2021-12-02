@@ -1,0 +1,8 @@
+use gestorProyectos
+db
+db.createCollection("avances")
+db.createCollection("inscripciones")
+db.createCollection("proyectos")
+db.createCollection("usuarios")
+show collection
+db.avances.insert({fecha:"26/11/2021",descripcion:"descripcion avance 1",observaciones:[],proyecto: idObject,creadoPor:idObject})
